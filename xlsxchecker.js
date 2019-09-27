@@ -22,8 +22,8 @@ const file1 = myArgs[0]
 const file2 = myArgs[1]
 
 compare(file1, file2, "Templates", "Template Tracking", "B", "F")
-compare(file1, file2, "Capabilities", "Capability Tracking - Panels", "A", "C")
-compare(file1, file2, "Capabilities", "Capability Tracking - Storyboards", "A", "D")
+compare(file1, file2, "Capabilities - Panels", "Capability Tracking", "A", "C")
+compare(file1, file2, "Capabilities - Storyboards", "Capability Tracking", "A", "D")
 
 function compare(file1, file2, title, sheet, col1, col2) {
 	let dataset = {}
